@@ -26,7 +26,7 @@ MAX_HISTORY = 10
 # КОМАНДА /onboarding — главное меню
 # ══════════════════════════════════════════════════════════
 
-@app.command("/onboarding")
+@app.command("/hrbot")
 def handle_onboarding_command(ack, say):
     ack()
     say(
