@@ -27,9 +27,9 @@ MAX_HISTORY = 10
 # ══════════════════════════════════════════════════════════
 
 @app.command("/hrbot")
-def handle_onboarding_command(ack, say):
+def handle_onboarding_command(ack, respond):
     ack()
-    say(
+    respond(
         blocks=[
             {
                 "type": "section",
